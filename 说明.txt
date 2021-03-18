@@ -1,0 +1,1 @@
+classification_sample_async.exe -i car.png -m C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\public\squeezenet1.1\FP16\squeezenet1.1.xml

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "classification_sample_async", "classification_sample_async\classification_sample_async.vcxproj", "{D7715741-CBBD-4D85-B223-31F97DB6FDA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{DBFED652-3392-4DB6-AB83-DCB583ECBF19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MobileNet_V1_IR_Sample", "MobileNet_V1_IR_Sample\MobileNet_V1_IR_Sample.vcxproj", "{8A166EDF-C050-4340-A5E2-5283F20911DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Debug|x64.ActiveCfg = Debug|x64
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Debug|x64.Build.0 = Debug|x64
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Debug|x86.Build.0 = Debug|Win32
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Release|x64.ActiveCfg = Release|x64
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Release|x64.Build.0 = Release|x64
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Release|x86.ActiveCfg = Release|Win32
+		{D7715741-CBBD-4D85-B223-31F97DB6FDA8}.Release|x86.Build.0 = Release|Win32
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Debug|x64.ActiveCfg = Debug|x64
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Debug|x64.Build.0 = Debug|x64
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Debug|x86.Build.0 = Debug|Win32
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Release|x64.ActiveCfg = Release|x64
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Release|x64.Build.0 = Release|x64
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Release|x86.ActiveCfg = Release|Win32
+		{8A166EDF-C050-4340-A5E2-5283F20911DD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A166EDF-C050-4340-A5E2-5283F20911DD} = {DBFED652-3392-4DB6-AB83-DCB583ECBF19}
+	EndGlobalSection
+EndGlobal
